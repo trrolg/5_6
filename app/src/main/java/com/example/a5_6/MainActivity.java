@@ -79,11 +79,11 @@ public class MainActivity extends AppCompatActivity {
                 spassc = passc.getText().toString();
 
                 if (!semail.contains("@")){
-                    Toast.makeText(MainActivity.this, "Nieprawidłowy adres e-mail", Toast.LENGTH_SHORT).show();
+                    alert.setText("Nieprawidłowy adres e-mail");
                 } else if (!Objects.equals(spass, spassc)){
-                    Toast.makeText(MainActivity.this, "hasło nie zgadza się", Toast.LENGTH_SHORT).show();
+                    alert.setText("hasło nie zgadza się");
                 } else {
-                    Toast.makeText(MainActivity.this, "Zarejestrowano: " + semail, Toast.LENGTH_SHORT).show();
+                    alert.setText("Zarejestrowano: " + semail);
                     lastl = semail;
                 }
             }

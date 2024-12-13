@@ -76,7 +76,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
-        android:hint="hasło"
         />
 
     <EditText
@@ -84,7 +83,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
-        android:hint="powtórz hasło"
         />
 
     <Button
@@ -100,11 +98,6 @@
         android:layout_height="wrap_content"
         android:text="Zobacz uczestnika"
         android:layout_gravity="center"/>
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="#808080"/>
 
 
     <TextView
